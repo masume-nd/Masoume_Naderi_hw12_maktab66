@@ -17,8 +17,8 @@ function timeoutPromiseReject(interval) {
 function timeTest() {
   //this function is a regular function and not a async function
   timeoutPromiseResolve(5000);
-  timeoutPromiseReject(2000); //here we have error and code stop so
-  timeoutPromiseResolve(3000); // this line doesn't execute
+  timeoutPromiseReject(2000); 
+  timeoutPromiseResolve(3000); 
 }
 /************** soloution ***************/
 
