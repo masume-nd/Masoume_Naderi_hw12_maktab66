@@ -1,0 +1,80 @@
+body {
+  background-color: gainsboro;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  resize: vertical;
+}
+
+.col-25 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#submit {
+  background-color: #02b36f;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+form {
+  margin: 20px;
+}
+
+#myModal {
+  display: none;
+  width: 25rem;
+  height: 6rem;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  -webkit-transition: 10s;
+  transition: 10s;
+  background: -webkit-gradient(linear, left top, right top, from(#02b36f), to(#cbecdf));
+  background: linear-gradient(to right, #02b36f, #cbecdf);
+}
+
+#myModal p {
+  margin: 2.2rem;
+}
+
+.close {
+  color: #aaa;
+  font-size: larger;
+  position: absolute;
+  right: -45px;
+  top: 5px;
+  width: 70px;
+  text-decoration: none;
+}
+
+.close:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.danger-border {
+  border: 2px solid red;
+  border-radius: 6px;
+}
+
+.dark-border {
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.text-err {
+  display: none;
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

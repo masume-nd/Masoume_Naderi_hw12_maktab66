@@ -1,0 +1,9 @@
+$danger:red;
+@mixin sample($x,$y,$pseudo:false) {
+    width: 100%;
+    padding-top: #{$x/$y*1%};
+}
+.box{
+    @include sample(100,50,true);
+    background-color: $danger;
+}

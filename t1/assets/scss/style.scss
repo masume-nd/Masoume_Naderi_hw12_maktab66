@@ -1,0 +1,77 @@
+$success : rgb(2, 179, 111);
+$success-light : rgb(203, 236, 223);
+$bg-light : gainsboro;
+$light : white;
+$danger : red;
+$dark : black;
+
+body{
+    background-color: $bg-light;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.col-25{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#submit{
+    background-color: $success;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: $light;
+}
+form{
+    margin: 20px;
+}
+#myModal{
+    display: none;
+    width: 25rem;
+    height: 6rem;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    transition: 10s;
+    background: linear-gradient(to right,$success,$success-light);
+}
+#myModal p{
+    margin: 2.2rem ;
+
+}
+.close {
+    color: #aaa;
+    font-size: larger;
+    position: absolute;
+    right: -45px;
+    top: 5px;
+    width: 70px;
+    text-decoration: none;
+    &:hover {
+      color: black;
+      cursor: pointer;
+    }
+  }
+
+.danger-border{
+    border: 2px solid $danger;
+    border-radius: 6px;
+}
+.dark-border{
+    border: 2px solid $dark;
+    border-radius: 6px;
+}
+.text-err{
+    display: none;
+    color: $danger;
+}
+
+
+  
